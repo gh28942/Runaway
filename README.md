@@ -11,4 +11,6 @@ There is an easter egg in it which will make christmas trees appear if you play 
 
 EXE created from the executable jar file with Launch4j. 
 
+![Run away! Screenshot](screenshot/screenshot.png?raw=true "Run away! Screenshot")
+
 Game Demo: https://youtu.be/dQ_hqpBVEvY 
