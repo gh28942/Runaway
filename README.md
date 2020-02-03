@@ -13,4 +13,4 @@ EXE created from the executable jar file with Launch4j.
 
 ![Run away! Screenshot](screenshot/runaway_screenshot.jpg?raw=true "Run away! Screenshot")
 
-* Game Demo: https://youtu.be/dQ_hqpBVEvY *
+* Game Demo: https://youtu.be/dQ_hqpBVEvY 
