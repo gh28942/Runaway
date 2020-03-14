@@ -24,6 +24,9 @@ public class HighscoreManager {
 	TableView<Entry> HStableView;
 	final String secretKey = "d~FycA*2Q$?|svf:^Db_fJ#GE";
 
+	//For the Windows installer - store data in the AppData Folder. Uncomment for use in the installer.
+	String windowsFilePath = "";//System.getenv("APPDATA") + "/GerH/runaway/";
+	
 	public void openScoreview(){
 
 		try {
@@ -167,7 +170,7 @@ public class HighscoreManager {
 		Scanner in;
 
 		try {
-			in = new Scanner(new FileReader("score/highscore.csv"));
+			in = new Scanner(new FileReader(windowsFilePath + "score/highscore.csv"));
 			StringBuilder sb = new StringBuilder();
 			while(in.hasNext()) {
 				sb.append(in.next());
