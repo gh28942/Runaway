@@ -111,6 +111,9 @@ public class Controller {
 	String imgSource = "/rabbit.png";
 	String scoreText = "";
 
+	//For the Windows installer - store data in the AppData Folder. Uncomment for use in the installer.
+	String windowsFilePath = "";//System.getenv("APPDATA") + "/GerH/runaway/";
+
 	public Controller() {
 
 		//load images only once
@@ -738,7 +741,7 @@ public class Controller {
 			//Only compare with other scores at 'normal' or higher level, since the easier ones aren't really comparable
 			if(frameTime <= 120){
 
-				in = new Scanner(new FileReader("score/highscore.csv"));
+				in = new Scanner(new FileReader(windowsFilePath + "score/highscore.csv"));
 				StringBuilder sb = new StringBuilder();
 				while(in.hasNext()) {
 					sb.append(in.next());
@@ -857,7 +860,7 @@ public class Controller {
 			}
 			String highscoreStringEncr = AES.encrypt(highscoreString, secretKey);
 			PrintWriter writer;
-			writer = new PrintWriter("score/highscore.csv", "UTF-8");
+			writer = new PrintWriter(windowsFilePath + "score/highscore.csv", "UTF-8");
 			writer.println(highscoreStringEncr);
 			writer.close();
 
