@@ -11,8 +11,17 @@ There is an easter egg in it which will make christmas trees appear if you play 
 
 EXE created from the executable jar file with Launch4j. 
 
+<br>
+
 You can find a practical Windows installer for the game here: https://www.mediafire.com/file/d1j3fi3k7acbpaw/runaway-setup.exe/file
 
-![Run away! Screenshot](screenshot/runaway_screenshot.jpg?raw=true "Run away! Screenshot")
-
 * Game Demo: https://youtu.be/dQ_hqpBVEvY 
+
+<br>
+<hr>
+<br>
+<p align="center">
+<img src="https://raw.githubusercontent.com/gh28942/Runaway/master/screenshot/runaway_screenshot.jpg">
+<br>In-game screenshot</br>
+<br>
+</p>
