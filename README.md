@@ -1,5 +1,5 @@
 # Runaway
-Java Minigame with a JavaFX User Interface. Music, sounds and some game mechanics are handled in different threads. Run away from the fox as long as possible! 
+Java minigame with a JavaFX User Interface. Music, sounds and some game mechanics are handled in different threads. Run away from the fox as long as possible! 
 
 Controls: w,a,s,d to move and k to kick. 
 
