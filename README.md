@@ -1,13 +1,11 @@
 # Runaway
-Java Minigame
+Java Minigame with a JavaFX User Interface. Music, sounds and some game mechanics are handled in different threads. Run away from the fox as long as possible! 
 
-Run away from the fox. Last as long as you can! 
-
-Controls: w,a,s,d to move and k to kick.
+Controls: w,a,s,d to move and k to kick. 
 
 The highscore is stored in an AES encrypted file. You need to have its folder in the same location as the exe/jar file. 
 
-There is an easter egg in it which will make christmas trees appear if you play the game around Christmas time.
+There is an easter egg which will make christmas trees appear if you play the game around Christmas time.
 
 EXE created from the executable jar file with Launch4j. 
 
